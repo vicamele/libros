@@ -21,3 +21,6 @@ Route::controllers([
 ]);
 */
 Route::resource('books','BookController');
+Route::get('/prueba', function () {
+    return view('prueba');
+});
